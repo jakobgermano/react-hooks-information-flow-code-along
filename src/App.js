@@ -4,7 +4,9 @@ import Parent from "./Parent";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ backgroundColor: color }}>
+        <Child onChangeColor={handleChangeColor} />
+    <Child onChangeColor={handleChangeColor} />
       <Parent />
     </div>
   );
